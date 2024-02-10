@@ -1,3 +1,5 @@
+# can't figure out how to make this work
+###
 import cv2
 import pytesseract
 import pandas as pd
@@ -24,8 +26,8 @@ def image_to_csv(image_path, csv_output_path):
     df.to_csv(csv_output_path, index=False)
 
 # Example usage
-image_path = 'path/to/your/image.png'
-csv_output_path = 'output.csv'
+image_path = '/Users/stevepark/Desktop/Spring 2024/Hackalytics-2024/tabtest.png'
+csv_output_path = 'test.csv'
 image_to_csv(image_path, csv_output_path)
 
 print("CSV file has been created.")
